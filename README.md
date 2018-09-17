@@ -5,4 +5,4 @@ La función del software es cargar y evaluar diferentes embeddings. Además en (
 Cómo utilizarlo
 
 Para ejecutar este código necesitaras tener instalada una versión de Python superior a 3.0 y los paquetes utilizados, visibles en los import. Los archivos tienen que abrirse con Jupyter Notebook. Además, tendrás que tener los embedding que quieras probar en un formato de texto (no .bin). 
-En (archivo principal) se encuentra todo el código referente a la evaluación de embeddings de sentidos. Antes de empezar a evaluar hay que cargar los embedding. Para ello hay que ralizar una llamada a la función load_embedding() con la ruta al archivo del embedding por cada embedding que se desee cargar. Una vez cargados los embedding, se pueden empezar a comparar.
+En (archivo principal) se encuentra todo el código referente a la evaluación de embeddings de sentidos. Antes de empezar a evaluar hay que cargar los embedding. Para ello hay que ralizar una llamada a la función load_embedding() con la ruta al archivo del embedding por cada embedding que se desee cargar. Una vez cargados los embedding, se pueden empezar a comparar utilizando la función .
